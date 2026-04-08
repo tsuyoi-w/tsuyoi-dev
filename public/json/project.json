@@ -6,8 +6,8 @@
     "date": "07/04/2026"
   },
   "CTime": {
-    "title": "Terraria clone in c++",
-    "description": "A simple terraria clone with SDL3, SDL_Image and GLM",
+    "title": "Ctime Libs",
+    "description": "A simple time gestion libs",
     "image": "nothing",
     "date": "07/04/2026"
   }

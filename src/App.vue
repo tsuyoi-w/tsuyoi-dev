@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'jet';
-    src: url('/public/JetBrainsMono-Regular.ttf');
+    src: url('/JetBrainsMono-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,7 +34,7 @@
 
 body {
  
-  background: url('/public/bg.jpg') no-repeat center center;
+  background: url('/bg.jpg') no-repeat center center;
   background-size: cover; 
 }
 
