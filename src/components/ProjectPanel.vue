@@ -1,7 +1,9 @@
 <template>
   <div class="content">
     <h1 class="title">{{ title }}</h1>
+    <br>
     <h2 class="desc">{{ description }}</h2>
+    <br>
     <h3 class="date">{{ date }}</h3>
   </div>
 </template>
@@ -20,6 +22,7 @@ defineProps({
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  border: 2px solid  white;
 }
 
 </style>

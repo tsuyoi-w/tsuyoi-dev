@@ -1,6 +1,7 @@
 <template>
   <header>
     <RouterLink id="rt" to="/">Tsuyoi - Lenny</RouterLink>
+    <RouterLink id="rt" to="/"> <img src="/Logo/t.png" alt="T majuscules logo" /></RouterLink>
     <RouterLink id="rt" to="/project">project</RouterLink>
   </header>
   <main>
@@ -11,12 +12,11 @@
 <script setup></script>
 
 <style>
-
 @font-face {
-    font-family: 'jet';
-    src: url('/JetBrainsMono-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'jet';
+  src: url('/JetBrainsMono-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 *::-webkit-scrollbar {
@@ -24,18 +24,18 @@
 }
 
 * {
+  background-color: black;
   margin: 0px;
   list-style: none;
   padding: 0px;
   text-decoration: none;
-  color: white; 
+  color: white;
   font-family: 'jet';
 }
 
 body {
- 
   background: url('/bg.jpg') no-repeat center center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 header {
